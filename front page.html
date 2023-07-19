@@ -1,0 +1,62 @@
+<title>BASE PAGE</title>
+<body class="total">
+    <div class="flex">
+        <div class="google"><u>GOOGLE MAPS</u></div>
+        <div class="scroll"><marquee direction="left" scrollamount="10s" >---Discover your path---</marquee></div>
+        <div class="enter"><a  href="./home page.html"><button onclick="func()" class="enter">click to enter</button></a></div> 
+        <div class="para">
+            <div class="question1"></div>
+            <marquee class="ans"></marquee>
+        </div>
+    </div>
+</body>
+
+<style>
+    .total{
+        background-image: url(./wallpaperflare.com_wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: aliceblue;
+
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+
+    }
+    .google{
+        font-size: 500%;
+        
+    }
+    .scroll{
+        width: 90%;
+        font-size: 200%;
+        font-family: cursive;
+    }
+    .enter{
+        font-size: 130%;
+        background-color:grey;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px black;
+        transition: box-shadow 0.3s,background-color 0.3s;
+    }
+    .enter:hover{
+        box-shadow: 5px 5px 10px black;
+        background-color: white;
+       
+    }
+</style>
+
+<script>
+
+    function func(){
+        alert("You are being directed to the home page..");
+    }
+    
+</script>
